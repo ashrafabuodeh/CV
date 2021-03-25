@@ -1,0 +1,150 @@
+.wrapper{
+    border: 1px solid black;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.header{
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 10px;
+}
+
+.intro{
+  width: 500px;
+}
+
+p{
+    font-size: 22px;
+}
+
+.brief{
+    margin-left: 10px;
+}
+
+.emailIcon , .githubIcon , .phoneIcon , .locIcon {
+  width: 15px;
+}
+
+.full-circle{
+ width :25px;
+
+}
+
+.icon{
+    margin-left: 20px;
+}
+
+.profile-image{
+    height: 200px;
+    margin: 10px 100px 0 100px;
+    width: 150px;
+}
+
+.space-between-icons{
+    margin-top: 5px;
+}
+
+.main{
+    border: 1px solid  black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 1120px;
+}
+
+.split-left , .split-right{
+    padding: 0 0 0 10px;
+    width: 450px;
+}
+
+.margin-for-Achievements{
+    height: 283px;
+    margin: 95px 0 0 0;
+    width: 100%;
+}
+
+.feild{
+    font-size: 20px;
+}
+
+.grid-column-1{
+    height: 298px;
+    width: 100%;
+}
+
+.tit-edu , .experience ,.languagues ,.skills,.name {
+    font-size: 30px;
+}
+
+.section-edu , .section-exp ,.section-lang { 
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.section-skills{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.color-skill{
+    background-color: #d8e3f0;
+    display: inline;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.space-between-skills{
+    margin-top: 20px;
+}
+
+.section-Achievements {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.margin-space{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.grid-column-1{
+    height: 313px;
+    width: 100%;
+}
+
+.programming-language{
+    font-size: 30px;
+    margin: 500px 0 0 10px;
+}
+
+.same-color{
+     color:  #3593af;
+     text-decoration: underline;   
+}
+@media  screen and (max-width :1023px){
+    .header {
+     flex-direction: column;
+     border: none;
+    }
+    .main{
+        border: none;
+    }
+    .wrapper{
+      border: none;
+    }
+    .order-brief{
+        order: 2;
+    }
+    .order2{
+        order: 1;
+    }
+    .order-icons{
+        order: 3;
+    }
+    .main{
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
